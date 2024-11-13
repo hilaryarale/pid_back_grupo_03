@@ -37,7 +37,7 @@ public class Usuario {
 	private TipoUsuario co_tipusua;
 	
 	private Boolean st_autenticacion;
-	private Boolean cost_registrorreo;
+	private Boolean st_registro;
 	
 	@JsonIgnoreProperties({ "hibernateLazyInitializer", "handler" })
 	@ManyToOne(fetch = FetchType.LAZY)
